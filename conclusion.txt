@@ -1,0 +1,28 @@
+FINAL CONCLUSION
+
+Both Merge Sort and Quick Sort successfully sorted the
+given fixed-length IDs:
+
+324, 125, 456, 218, 102, 389, 275, 147
+
+Final sorted sequence:
+
+102, 125, 147, 218, 275, 324, 389, 456
+
+For the given input, Merge Sort performed 7 merge operations,
+while Quick Sort performed 5 partition operations using the
+last element as the pivot.
+
+Merge Sort has a guaranteed O(n log n) time complexity even
+in the worst case. Quick Sort has O(n log n) average-case
+complexity but can become O(n^2) in the worst case.
+
+For large fixed-length keys, Merge Sort is a suitable choice
+when predictable performance and guaranteed O(n log n) time
+are important. Quick Sort can also be very efficient when
+good pivot selection is used and memory usage is a concern.
+
+Therefore, based on the theoretical analysis, Merge Sort is
+preferred when guaranteed performance is the main requirement,
+while Quick Sort may be preferred when practical speed and
+lower additional memory usage are more important.

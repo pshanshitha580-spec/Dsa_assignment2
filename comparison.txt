@@ -1,0 +1,26 @@
+MERGE SORT VS QUICK SORT
+
+Factor                  Merge Sort              Quick Sort
+---------------------------------------------------------------
+Method                  Divide and Merge        Divide and Partition
+
+Passes/Operations       7 merges                5 partitions
+                        for this input          for this input
+
+Best Case               O(n log n)              O(n log n)
+
+Average Case            O(n log n)              O(n log n)
+
+Worst Case              O(n log n)              O(n^2)
+
+Additional Space        O(n)                    O(log n) average
+
+Stability               Stable                  Not stable
+
+Pivot Required          No                      Yes
+
+Main Advantage          Guaranteed              Usually fast
+                        O(n log n)              in practice
+
+Main Disadvantage       Requires extra          Worst case can be
+                        memory                  O(n^2)

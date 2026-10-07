@@ -1,0 +1,12 @@
+Original Array:
+324 125 456 218 102 389 275 147
+
+Quick Sort Partition Trace:
+Pivot = 147, Array after partition: 125 102 147 218 324 389 275 456
+Pivot = 102, Array after partition: 102 125 147 218 324 389 275 456
+Pivot = 456, Array after partition: 102 125 147 218 324 389 275 456
+Pivot = 275, Array after partition: 102 125 147 218 275 389 324 456
+Pivot = 324, Array after partition: 102 125 147 218 275 324 389 456
+
+Final Sorted Array:
+102 125 147 218 275 324 389 456

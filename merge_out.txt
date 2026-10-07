@@ -1,0 +1,14 @@
+Original Array:
+324 125 456 218 102 389 275 147
+
+Merge Sort Trace:
+After merging [0 - 1]: 125 324 456 218 102 389 275 147
+After merging [2 - 3]: 125 324 218 456 102 389 275 147
+After merging [0 - 3]: 125 218 324 456 102 389 275 147
+After merging [4 - 5]: 125 218 324 456 102 389 275 147
+After merging [6 - 7]: 125 218 324 456 102 389 147 275
+After merging [4 - 7]: 125 218 324 456 102 147 275 389
+After merging [0 - 7]: 102 125 147 218 275 324 389 456
+
+Final Sorted Array:
+102 125 147 218 275 324 389 456
